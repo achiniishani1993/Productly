@@ -148,7 +148,7 @@ section:nth-of-type(2) .container {
   max-width: 539px;
   width: 100%;
 }
-.text-blockTwo h4, .text-blockThree h4  {
+.text-blockTwo h4, .text-blockThree h4 , .text-blockFour h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -202,9 +202,10 @@ section:nth-of-type(3) .container {
     margin-top:146px;
     justify-content: center;
     align-items: center;
+    gap:104px
 }
 
-.text-blockThree h4  {
+.text-blockThree h4, .text-blockFour h4  {
   text-align:left;
   margin-top: 3px;
   margin-bottom: 22px;
@@ -218,4 +219,24 @@ section:nth-of-type(3) .container {
   color: #2F281E;
   margin-bottom: 12px;
   margin-top: 25px;
+}
+section:nth-of-type(4) .container {
+    margin-top:101px;
+    align-items: center;
+    gap:100px
+}
+.points-blockFourth  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+  gap:9px;
+ 
+}
+.points-blockFourth img {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.points-blockFourth p {
+     margin: 0;
 }
