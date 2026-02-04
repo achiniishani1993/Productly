@@ -148,16 +148,20 @@ section:nth-of-type(2) .container {
   max-width: 539px;
   width: 100%;
 }
-.text-blockTwo h4 {
+.text-blockTwo h4, .text-blockThree h4  {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
   line-height:normal;
   color: #2F281E;
+  
+} 
+
+.text-blockTwo h4 {
   text-align: center;
   margin-top: 110px;
-} 
+}
 
 .process-block {
   display: flex;
@@ -185,7 +189,7 @@ section:nth-of-type(2) .container {
   color: #2F281E;
   margin-bottom: 13px;
 }
-.card-text , .text-blockThree p {
+.card-text , .text-blockThree, .text-blockFour p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -199,13 +203,8 @@ section:nth-of-type(3) .container {
     justify-content: center;
     align-items: center;
 }
-.text-blockThree h4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-  line-height:normal;
-  color: #2F281E;
+
+.text-blockThree h4  {
   text-align:left;
   margin-top: 3px;
   margin-bottom: 22px;
