@@ -248,3 +248,22 @@ section:nth-of-type(5) .container {
     align-items: center;
     gap:82px
 }
+/* figures sizes */
+.image-One{
+ width: 605px;
+ height: 496px;
+}
+.image-Two{
+ width: 520px;
+ height: 574px;
+}
+
+.image-Three{
+ width: 535px;
+ height: 521px; 
+}
+
+.image-Four{
+ width: 542px;
+ height: 609px; 
+}
