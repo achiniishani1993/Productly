@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: space-between; /*left group on left, right group on right  */
   align-items: center;
+  margin-bottom: 30px;
 }
 .nav-left,     /*left & right sides*/
 .nav-right {
@@ -135,4 +136,16 @@ body {
     font-style: normal;
     font-size: 16px;
     color: #FF9900;
+}
+.text-blockTwo{
+  max-width: 539px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height:normal;
+  color: #2F281E;
+  text-align: center;
+  margin-top: 110px;
 }
