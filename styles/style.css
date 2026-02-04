@@ -75,9 +75,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:63px;
 }
 
-.text-block h1 {
+.text-blockOne h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -86,7 +87,7 @@ body {
   color: #2f281e;
   text-align: left;
 }
-.text-block p {
+.text-blockOne p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -148,7 +149,7 @@ section:nth-of-type(2) .container {
   max-width: 539px;
   width: 100%;
 }
-.text-blockTwo h4, .text-blockThree h4 , .text-blockFour h4 {
+.text-blockTwo h4, .text-blockThree h4 , .text-blockFour h4 , .text-blockFive h4{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -189,7 +190,7 @@ section:nth-of-type(2) .container {
   color: #2F281E;
   margin-bottom: 13px;
 }
-.card-text , .text-blockThree, .text-blockFour p {
+.card-text , .text-blockThree, .text-blockFour, .text-blockFive p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -205,12 +206,12 @@ section:nth-of-type(3) .container {
     gap:104px
 }
 
-.text-blockThree h4, .text-blockFour h4  {
+.text-blockThree h4, .text-blockFour h4 , .text-blockFive h4 {
   text-align:left;
   margin-top: 3px;
   margin-bottom: 22px;
 }
-.text-blockThree h6 {
+.text-blockThree h6 , .text-blockFive h6{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -239,4 +240,11 @@ section:nth-of-type(4) .container {
 }
 .points-blockFourth p {
      margin: 0;
+}
+
+section:nth-of-type(5) .container {
+    margin-top:146px;
+    justify-content: center;
+    align-items: center;
+    gap:82px
 }
