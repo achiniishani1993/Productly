@@ -147,6 +147,8 @@ section:nth-of-type(2) .container {
 .text-blockTwo{
   max-width: 539px;
   width: 100%;
+}
+.text-blockTwo h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -160,7 +162,6 @@ section:nth-of-type(2) .container {
 .process-block {
   display: flex;
   justify-content: center;
-  gap: 46px;
   margin-top: 54px;
   margin-bottom: 34px;
   
@@ -168,6 +169,7 @@ section:nth-of-type(2) .container {
 .card {
     align-content: flex-start;
     text-align: left;
+    padding: 46px;
 }
 .card img {
     width: 51px;
@@ -181,8 +183,9 @@ section:nth-of-type(2) .container {
   font-size: 22px;
   line-height:normal;
   color: #2F281E;
+  margin-bottom: 13px;
 }
-.card-text p {
+.card-text , .text-blockThree p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -191,5 +194,29 @@ section:nth-of-type(2) .container {
   color: #544837;
   
 }
-
-
+section:nth-of-type(3) .container {
+    margin-top:146px;
+    justify-content: center;
+    align-items: center;
+}
+.text-blockThree h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height:normal;
+  color: #2F281E;
+  text-align:left;
+  margin-top: 3px;
+  margin-bottom: 22px;
+}
+.text-blockThree h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2F281E;
+  margin-bottom: 12px;
+  margin-top: 25px;
+}
