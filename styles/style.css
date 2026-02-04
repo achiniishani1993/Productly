@@ -7,24 +7,24 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 20px 145px 0px 145px;
  
 }
-
 .primary-nav {
   display: flex;
   justify-content: space-between; /*left group on left, right group on right  */
   align-items: center;
-  margin: 20px 145px 0px 145px;
+ 
 }
-
 .nav-left,     /*left & right sides*/
 .nav-right {
   display: flex;
   align-items: center;
   
 }
-.nav-right ul {
-    margin-left: 321px;
+
+.nav-left img{
+    margin-right: 320px;
 }
 .nav-right li {
   padding: 14px;
@@ -43,12 +43,27 @@ align-items: center;
 }
 .nav-btns {
   display: flex;
-  align-items: center;
   list-style: none;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
+}
+.signin-btn{
+    width: 102px;
+    height: 46px;
+    background-color: #FFFFFF;
+    color: #173A56;
+    border-color: #BCD0E5;
+    border-style: solid;
+    border-width: thin;
+}
+.signup-btn {
+   width: 110px;
+   height: 46px;
+   color: #FFFFFF;
+   background-color: #FF9900;
+   border: none;
 }
 .nav-links a {
   text-decoration: none; /* remove underline */
