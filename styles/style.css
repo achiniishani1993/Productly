@@ -71,7 +71,7 @@ body {
   transition: 0.2s ease-in-out;
 }
 
-.container {
+.container  {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ body {
 
  
 }
-.get-btn{
+.get-btn, .now-btn{
     width: 175px;
     height: 53px;
     border-radius: 4px;
@@ -137,6 +137,13 @@ body {
     font-size: 16px;
     color: #FF9900;
 }
+
+section:nth-of-type(2) .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .text-blockTwo{
   max-width: 539px;
   width: 100%;
@@ -148,4 +155,41 @@ body {
   color: #2F281E;
   text-align: center;
   margin-top: 110px;
+} 
+
+.process-block {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  margin-top: 54px;
+  margin-bottom: 34px;
+  
 }
+.card {
+    align-content: flex-start;
+    text-align: left;
+}
+.card img {
+    width: 51px;
+    height: 50px;
+    
+}
+.card-text h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height:normal;
+  color: #2F281E;
+}
+.card-text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #544837;
+  
+}
+
+
