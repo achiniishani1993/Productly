@@ -356,5 +356,34 @@ hr {
   100% { transform: translateY(0); }
 }
 
+/* tried animated button */
 
+.signup-btn {
+  transition: all 0.5s;
+  cursor: pointer;
+}
 
+.signup-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.signup-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.signup-btn:hover span {
+  padding-right: 25px;
+}
+
+.signup-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
