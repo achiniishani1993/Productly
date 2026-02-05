@@ -71,11 +71,11 @@ body {
   transition: 0.2s ease-in-out;
 }
 
-.container  {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:63px;
+  gap: 63px;
 }
 
 .text-blockOne h1 {
@@ -95,27 +95,26 @@ body {
   line-height: 1.6;
   color: #544837;
   text-align: left;
-  margin-top: 30px 0px 45px;
+  margin: 30px 0px 45px;
 }
 
 .btn-block {
- display: flex;
- flex-direction: row;
- gap: 30px;
-
- 
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
-.get-btn, .now-btn{
-    width: 175px;
-    height: 53px;
-    border-radius: 4px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    background-color: #FF9900;
-    color: #ffffff;
-    border: none;
+.get-btn,
+.now-btn {
+  width: 175px;
+  height: 53px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
 }
 .watch-block {
   display: flex;
@@ -123,20 +122,19 @@ body {
   gap: 9px;
 }
 .watch-block img {
-    width: 20px;
-    height: 17px;
-    align-self: center;
-    position: relative;
-   
+  width: 20px;
+  height: 17px;
+  align-self: center;
+  position: relative;
 }
 .watch-block a {
-    align-self: center;
-    position: relative;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    color: #FF9900;
+  align-self: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #ff9900;
 }
 
 section:nth-of-type(2) .container {
@@ -145,19 +143,21 @@ section:nth-of-type(2) .container {
   align-items: center;
   text-align: center;
 }
-.text-blockTwo{
+.text-blockTwo {
   max-width: 539px;
   width: 100%;
 }
-.text-blockTwo h4, .text-blockThree h4 , .text-blockFour h4 , .text-blockFive h4{
+.text-blockTwo h4,
+.text-blockThree h4,
+.text-blockFour h4,
+.text-blockFive h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
-  line-height:normal;
-  color: #2F281E;
-  
-} 
+  line-height: normal;
+  color: #2f281e;
+}
 
 .text-blockTwo h4 {
   text-align: center;
@@ -167,71 +167,72 @@ section:nth-of-type(2) .container {
 .process-block {
   display: flex;
   justify-content: center;
-  margin-top: 54px;
-  margin-bottom: 34px;
-  
+  margin: 54px 0px 34px;
 }
 .card {
-    align-content: flex-start;
-    text-align: left;
-    padding: 46px;
+  align-content: flex-start;
+  text-align: left;
+  padding: 46px;
 }
 .card img {
-    width: 51px;
-    height: 50px;
-    
+  width: 51px;
+  height: 50px;
 }
 .card-text h5 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 22px;
-  line-height:normal;
-  color: #2F281E;
+  line-height: normal;
+  color: #2f281e;
   margin-bottom: 13px;
 }
-.card-text , .text-blockThree, .text-blockFour, .text-blockFive p {
+.card-text,
+.text-blockThree,
+.text-blockFour,
+.text-blockFive p {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
   color: #544837;
-  
 }
 section:nth-of-type(3) .container {
-    margin-top:146px;
-    justify-content: center;
-    align-items: center;
-    gap:104px
+  margin-top: 146px;
+  justify-content: center;
+  align-items: center;
+  gap: 104px;
 }
 
-.text-blockThree h4, .text-blockFour h4 , .text-blockFive h4 {
-  text-align:left;
+.text-blockThree h4,
+.text-blockFour h4,
+.text-blockFive h4 {
+  text-align: left;
   margin-top: 3px;
   margin-bottom: 22px;
 }
-.text-blockThree h6 , .text-blockFive h6{
+.text-blockThree h6,
+.text-blockFive h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 1.6;
-  color: #2F281E;
+  color: #2f281e;
   margin-bottom: 12px;
   margin-top: 25px;
 }
 section:nth-of-type(4) .container {
-    margin-top:101px;
-    align-items: center;
-    gap:100px
+  margin-top: 101px;
+  align-items: center;
+  gap: 100px;
 }
-.points-blockFourth  {
+.points-blockFourth {
   display: flex;
   align-items: center;
   margin-bottom: 38px;
-  gap:9px;
- 
+  gap: 9px;
 }
 .points-blockFourth img {
   width: 35px;
@@ -239,31 +240,109 @@ section:nth-of-type(4) .container {
   flex-shrink: 0;
 }
 .points-blockFourth p {
-     margin: 0;
+  margin: 0;
 }
 
 section:nth-of-type(5) .container {
-    margin-top:146px;
-    justify-content: center;
-    align-items: center;
-    gap:82px
+  margin-top: 146px;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
 }
 /* figures sizes */
-.image-One{
- width: 605px;
- height: 496px;
+.image-One {
+  width: 605px;
+  height: 496px;
 }
-.image-Two{
- width: 520px;
- height: 574px;
-}
-
-.image-Three{
- width: 535px;
- height: 521px; 
+.image-Two {
+  width: 520px;
+  height: 574px;
 }
 
-.image-Four{
- width: 542px;
- height: 609px; 
+.image-Three {
+  width: 535px;
+  height: 521px;
+}
+
+.image-Four {
+  width: 542px;
+  height: 609px;
+}
+
+hr {
+    border: 1px solid #BCD0E5;
+    margin-top: 146px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Logo stays top */
+  padding: 40px 60px;
+  gap: 50px;
+}
+
+.footer-logo img {
+  width: 185px;
+  min-height: 29px;
+}
+
+/* Links middle */
+.footer-links {
+  display: flex;
+  align-self: flex-end; 
+  gap: 175px; /* space between the 2 navs */
+  margin-left: 126px; /* push links away from logo */
+  margin-top: 33px;
+}
+
+/* Links style */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #544837;
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+/* Newsletter right */
+.footer-email {
+  display: flex;
+  align-self: flex-end; /* pushes newsletter down */
+}
+
+/* Newsletter form */
+.footer-email form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-email input {
+  padding: 20px;
+  width: 325px;
+  height: 48px;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+}
+
+.footer-email button {
+  width: 131px;
+  height: 39px;
+  background: #ff9900;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+
 }
