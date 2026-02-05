@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px 145px 0px 145px;
+  font-family: "Poppins", sans-serif;
 }
 .primary-nav {
   display: flex;
@@ -27,7 +28,6 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -38,7 +38,6 @@ body {
 .nav-btns {
   display: flex;
   list-style: none;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
@@ -79,7 +78,6 @@ body {
 }
 
 .text-blockOne h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 44px;
@@ -88,7 +86,6 @@ body {
   text-align: left;
 }
 .text-blockOne p {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -108,7 +105,6 @@ body {
   width: 175px;
   height: 53px;
   border-radius: 4px;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -119,18 +115,17 @@ body {
 .watch-block {
   display: flex;
   align-items: center;
+  position: relative;
   gap: 9px;
 }
 .watch-block img {
   width: 20px;
   height: 17px;
   align-self: center;
-  position: relative;
+
 }
 .watch-block a {
   align-self: center;
-  position: relative;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
@@ -161,7 +156,7 @@ section:nth-of-type(2) .container {
 
 .text-blockTwo h4 {
   text-align: center;
-  margin-top: 110px;
+  margin-top: 100px;
 }
 
 .process-block {
@@ -172,14 +167,20 @@ section:nth-of-type(2) .container {
 .card {
   align-content: flex-start;
   text-align: left;
+  transition: 0.3s ease;
+  position: relative;
   padding: 46px;
 }
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
 .card img {
   width: 51px;
   height: 50px;
 }
 .card-text h5 {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 22px;
@@ -187,11 +188,10 @@ section:nth-of-type(2) .container {
   color: #2f281e;
   margin-bottom: 13px;
 }
-.card-text,
-.text-blockThree,
-.text-blockFour,
+.card-text p,
+.text-blockThree p,
+.text-blockFour p,
 .text-blockFive p {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -202,7 +202,7 @@ section:nth-of-type(3) .container {
   margin-top: 146px;
   justify-content: center;
   align-items: center;
-  gap: 104px;
+ 
 }
 
 .text-blockThree h4,
@@ -214,7 +214,6 @@ section:nth-of-type(3) .container {
 }
 .text-blockThree h6,
 .text-blockFive h6 {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -226,7 +225,6 @@ section:nth-of-type(3) .container {
 section:nth-of-type(4) .container {
   margin-top: 101px;
   align-items: center;
-  gap: 100px;
 }
 .points-blockFourth {
   display: flex;
@@ -247,7 +245,7 @@ section:nth-of-type(5) .container {
   margin-top: 146px;
   justify-content: center;
   align-items: center;
-  gap: 82px;
+  
 }
 /* figures sizes */
 .image-One {
@@ -270,8 +268,8 @@ section:nth-of-type(5) .container {
 }
 
 hr {
-    border: 1px solid #BCD0E5;
-    margin-top: 146px;
+  border: 1px solid #bcd0e5;
+  margin-top: 146px;
 }
 
 .footer {
@@ -290,9 +288,9 @@ hr {
 /* Links middle */
 .footer-links {
   display: flex;
-  align-self: flex-end; 
-  gap: 175px; /* space between the 2 navs */
-  margin-left: 126px; /* push links away from logo */
+  align-self: flex-end;
+  gap: 90px; /* space between the 2 navs */
+  margin-left: 100px; /* push links away from logo */
   margin-top: 33px;
 }
 
@@ -303,14 +301,14 @@ hr {
 }
 
 .footer-links li {
-  margin-bottom: 12px;
+ line-height: 2.2;
 }
 
 .footer-links a {
   text-decoration: none;
   color: #544837;
   font-size: 16px;
-  line-height: 2.2;
+ 
 }
 
 /* Newsletter right */
@@ -323,14 +321,14 @@ hr {
 .footer-email form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 .footer-email input {
   padding: 20px;
   width: 325px;
   height: 48px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
 }
 
@@ -343,6 +341,20 @@ hr {
   font-weight: bold;
   border-radius: 4px;
   font-size: 16px;
-  text-align: center;
-
+  text-align:center;
+  
 }
+
+/* image floating effect */
+.image-One img , .image-Two img, .image-Three img, .image-Four img {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+
+
